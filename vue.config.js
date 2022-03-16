@@ -11,24 +11,24 @@ module.exports = defineConfig({
     // HTML Title used for OpenGraph linters (social media links)
     config.plugin('html').tap((args) => {
       // eslint-disable-next-line no-param-reassign
-      args[0].title = 'Millie 6-Months and 200K';
+      args[0].title = 'Enna 6-Months and 200K';
       // eslint-disable-next-line no-param-reassign
       args[0].meta = {
-        description: 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
-        'og:title': 'Millie 6-Months and 200K',
+        description: 'Happy 6-Months Anniversary and Congratulations on 200K Enna!',
+        'og:title': 'Enna 6-Months and 200K',
         'og:type': 'website',
-        'og:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+        'og:description': 'Happy 6-Months Anniversary and Congratulations on 200K Enna!',
         // 'og:image': 'https://birthday.ennaalouette.com/ogimage.png',
         'twitter:card': 'summary_large_image',
-        'twitter:title': 'Millie 6-Months and 200K',
-        'twitter:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+        'twitter:title': 'Enna 6-Months and 200K',
+        'twitter:description': 'Happy 6-Months Anniversary and Congratulations on 200K Enna!',
         // 'twitter:image': 'https://birthday.ennaalouette.com/ogimage.png',
       };
       return args;
     });
   },
   pwa: {
-    name: 'Millie 6-Months and 200K',
+    name: 'Enna 6-Months and 200K',
     themeColor: '#102471',
     workboxOptions: {
       skipWaiting: true,
@@ -38,11 +38,11 @@ module.exports = defineConfig({
         /(.*).js.map/g,
       ],
     },
-    assetsVersion: '2022_03_15_00_00',
+    assetsVersion: '2022_03_16_00_00',
     manifestOptions: {
-      name: 'Millie 6 Months and 200K',
-      short_name: 'Millie 6m and 200K',
-      description: 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
+      name: 'Enna 6 Months and 200K',
+      short_name: 'Enna 6m and 200K',
+      description: 'Happy 6-Months Anniversary and Congratulations on 200K Enna!',
       display: 'standalone',
       orientation: 'landscape',
       background_color: '#ffffff',
