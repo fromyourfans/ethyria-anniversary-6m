@@ -1,17 +1,17 @@
 <template>
-  <v-container class="section-grid section-box pb-8">
+  <v-container class="section-grid pb-8">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
-        <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-">
+        <!-- <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-">
           <img
             src="../assets/img/section-happy.png" height="60"
             alt="Happy 6-Months Anniversary Millie Parfait!" />
-        </h1>
+        </h1> -->
       </v-col>
     </v-row>
     <v-row no-gutters>
       <v-col cols="6"
-        class="text-right white--text text-h5 text--darken-1 pt-4 pr-8 pl-4 hero-text">
+        class="text-right text-h5 pt-4 pr-8 pl-8 hero-text">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
@@ -48,10 +48,19 @@ export default {
 
 <style lang="scss" scoped>
 .section-grid {
-  margin-top:300px;
+  margin-top:400px;
   max-width:1280px;
   .hero-text {
     white-space: pre-line;
+    color:#fff;
+    text-shadow:
+      0px 0px 3px #32354d,
+      0px 0px 3px #32354d,
+      1px 1px 3px #32354d,
+      0px 0px 10px #32354d,
+      0px 0px 15px #303030,
+      0px 0px 15px #000,
+      0px 0px 20px #000;
   }
 }
 </style>

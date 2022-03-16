@@ -1,8 +1,7 @@
 <template>
-  <div id="page-home" class="pt-2 pb-4">
-    <div class="header">
-      <div class="fade"></div>
-    </div>
+  <div id="page-home" class="pb-4">
+    <div class="header"></div>
+    <div class="background"></div>
     <div class="section mb-4">
       <SectionHero/>
     </div>
@@ -10,13 +9,7 @@
       <SectionImage/>
     </div>
     <div class="section mb-12">
-      <SectionTimeline/>
-    </div>
-    <div class="section mb-12">
       <SectionMessages/>
-    </div>
-    <div class="section mb-12">
-      <SectionGallery/>
     </div>
     <div class="section mb-12">
       <SectionCredits/>
@@ -47,43 +40,51 @@ export default {
 
 <style lang="scss" scoped>
 #page-home {
-  background-color:#0c1a28;
+  background-color:#d0d4ec;
   min-height:100vh;
+  padding:1px;
 }
 .header {
-  width:100%;
-  height:720px;
-  background-color:#d0d0d0;
-  background-image:url('https://yt3.ggpht.com/81zhps9cD3zvRCK6dbf9iwtiC0yi97n8a-I-PeBvAj6WzkqkrlkvT0JbmzuzquPGM9E5hVwuPg=w1280');
-  background-position:50%;
+  width:100vw;
+  height:797px;
+  // 858ED1
+  background-image:url('../assets/img/header.png');
+  background-position:top center;
   background-repeat:no-repeat;
   position:absolute;
-  top:-270px;
-  .fade {
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background:
-      linear-gradient(to top, #0c1a28 0%, rgb(12, 26, 40, 0) 100px),
-      linear-gradient(to left, #0c1a28 calc(50% - 640px), rgb(12, 26, 40, 0) calc(50% - 540px)),
-      linear-gradient(to right, #0c1a28 calc(50% - 640px), rgb(12, 26, 40, 0) calc(50% - 540px));
-  }
+  top:-60px;
+  left:0;
+  right:0;
+  z-index:2;
+}
+.background {
+  width:100vw;
+  height:100vh;
+  // 858ED1
+  background-color:#d0d4ec;
+  background-image:url('../assets/img/header.png');
+  background-size:cover;
+  background-position:center center;
+  filter:blur(10px);
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index:1;
+  opacity:0.5;
 }
 .section {
   position:relative;
   .section-grid {
     min-height:400px;
     &.section-box {
-      background:
-        url('../assets/img/stitch-h.png') repeat-x,
-        url('../assets/img/stitch-v.png') repeat-y;
-      background-color:rgb(93, 89, 96, 0.95);
-      border-color:#41d0c5;
-      border-right:4px solid #41d0c5;
-      border-bottom:4px solid #41d0c5;
+      background-color:rgba(255, 255, 255, 0.8);
+      border-color:#858ED1;
+      border-right:4px solid #858ED1;
+      border-bottom:4px solid #858ED1;
     }
   }
+  z-index:3;
 }
 </style>

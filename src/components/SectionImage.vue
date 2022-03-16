@@ -1,5 +1,5 @@
 <template>
-  <v-container class="section-grid">
+  <v-container class="section-grid section-box">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
@@ -7,8 +7,8 @@
             src="../assets/img/section-mural.png" height="60"
             alt="Drawing Board" />
         </h1>
-        <h2 class="grey--text text-center pa-0 ma-0">
-          Famillie gathered around a mural to doodle their feelings for Millie
+        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0">
+          Aloupeeps coordinated to make Enna an art quilt
         </h2>
       </v-col>
     </v-row>
