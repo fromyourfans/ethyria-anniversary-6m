@@ -1,19 +1,19 @@
 <template>
-  <v-container class="section-grid section-box">
+  <v-container class="section-grid">
     <v-row no-gutters>
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
           <img
-            src="../assets/img/section-messages.png" height="60"
+            src="../assets/img/section-messages.png" height="90"
             alt="Message Cards" />
         </h1>
-        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0">
+        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0 white-glow">
           Heartfelt messages from the Aloupeeps
         </h2>
       </v-col>
     </v-row>
     <v-row no-gutters>
-      <v-col>
+      <v-col class="pt-4">
         <div v-masonry="'bdaycards'" transition-duration="0.3s" item-selector=".card" stagger="0s">
           <div
             v-masonry-tile
@@ -58,7 +58,8 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  background:#b7bde7;
+  // background:#b7bde7;
+  background:rgba(183, 189, 231, 0.7);
   position:relative;
   padding:0px 10px 10px 10px;
   min-height:100px;

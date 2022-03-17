@@ -1,13 +1,13 @@
 <template>
-  <v-container class="section-grid section-box">
+  <v-container class="section-grid">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
           <img
-            src="../assets/img/section-mural.png" height="60"
+            src="../assets/img/section-quilt.png" height="90"
             alt="Drawing Board" />
         </h1>
-        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0">
+        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0 white-glow">
           Aloupeeps coordinated to make Enna an art quilt
         </h2>
       </v-col>

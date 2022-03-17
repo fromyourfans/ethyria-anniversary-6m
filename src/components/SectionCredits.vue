@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <v-row no-gutters class="mb-4">
-      <v-col cols="12" class="text-center white--text">
-        <!-- For Millie Parfait. From MillieCord. 2022. -->
+    <v-row no-gutters>
+      <v-col cols="12" class="text-center black--text">
+        For Enna Alouette. From Aloupeeps.
       </v-col>
     </v-row>
   </v-container>

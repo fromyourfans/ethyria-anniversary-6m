@@ -4,10 +4,10 @@
       <v-col cols="12">
         <h1 class="yellow--text text--darken-3 text-center pa-0 ma-0">
           <img
-            src="../assets/img/section-rewind.png" height="60"
+            src="../assets/img/section-rewind.png" height="90"
             alt="Rewind" />
         </h1>
-        <h2 class="grey--text text-center pa-0 ma-0">
+        <h2 class="grey--text text--darken-3 text-center pa-0 ma-0 white-glow">
           Looking back to the fun and amazing moments we had with Millie
         </h2>
       </v-col>
@@ -26,7 +26,7 @@
         <div class="rewind-center">
           <div class="rewind-dot"></div>
         </div>
-        <div class="rewind-right white--text">
+        <div class="rewind-right black--text">
           <div class="rewind-texts">
             <p class="my-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -48,7 +48,7 @@
     </v-row>
     <v-row no-gutters class="rewind-item">
       <v-col>
-        <div class="rewind-left white--text text-right">
+        <div class="rewind-left black--text text-right">
           <div class="rewind-texts">
             <p class="my-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -94,7 +94,7 @@
         <div class="rewind-center">
           <div class="rewind-dot"></div>
         </div>
-        <div class="rewind-right white--text">
+        <div class="rewind-right black--text">
           <div class="rewind-texts">
             <p class="my-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -116,7 +116,75 @@
     </v-row>
     <v-row no-gutters class="rewind-item">
       <v-col>
-        <div class="rewind-left white--text text-right">
+        <div class="rewind-left black--text text-right">
+          <div class="rewind-texts">
+            <p class="my-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+              <em>- Zer0Pendragon</em>
+            </p>
+            <p class="my-8">
+              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+              <em>- Izendale</em>
+            </p>
+            <p class="my-8">
+              In nec scelerisque quam, sed ultricies ligula.
+              <em>- Pinkerton</em>
+            </p>
+          </div>
+        </div>
+        <div class="rewind-center">
+          <div class="rewind-dot"></div>
+        </div>
+        <div class="rewind-right text-left">
+          <iframe title="feature-video" class="rewind-frame"
+            width="640" height="360"
+            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </v-col>
+    </v-row>
+    <v-row no-gutters class="rewind-item">
+      <v-col>
+        <div class="rewind-left text-right">
+          <iframe title="feature-video" class="rewind-frame"
+            width="640" height="360"
+            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="rewind-center">
+          <div class="rewind-dot"></div>
+        </div>
+        <div class="rewind-right black--text">
+          <div class="rewind-texts">
+            <p class="my-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+              <em>- Zer0Pendragon</em>
+            </p>
+            <p class="my-8">
+              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
+              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
+              <em>- Izendale</em>
+            </p>
+            <p class="my-8">
+              In nec scelerisque quam, sed ultricies ligula.
+              <em>- Pinkerton</em>
+            </p>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
+    <v-row no-gutters class="rewind-item">
+      <v-col>
+        <div class="rewind-left black--text text-right">
           <div class="rewind-texts">
             <p class="my-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.

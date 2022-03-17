@@ -2,11 +2,11 @@
   <v-container class="section-grid pb-8">
     <v-row no-gutters class="mb-4">
       <v-col cols="12">
-        <!-- <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-">
+        <h1 class="yellow--text text--darken-3 text-center pa-0 mx-0 my-">
           <img
-            src="../assets/img/section-happy.png" height="60"
-            alt="Happy 6-Months Anniversary Millie Parfait!" />
-        </h1> -->
+            src="../assets/img/section-happy.png" width="700"
+            alt="Happy 6-Months and 200K Enna Alouette!" />
+        </h1>
       </v-col>
     </v-row>
     <v-row no-gutters>

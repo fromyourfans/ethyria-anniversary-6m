@@ -9,6 +9,9 @@
       <SectionImage/>
     </div>
     <div class="section mb-12">
+      <SectionTimeline/>
+    </div>
+    <div class="section mb-12">
       <SectionMessages/>
     </div>
     <div class="section mb-12">
@@ -22,7 +25,6 @@ import SectionHero from '@/components/SectionHero.vue';
 import SectionImage from '@/components/SectionImage.vue';
 import SectionTimeline from '@/components/SectionTimeline.vue';
 import SectionMessages from '@/components/SectionMessages.vue';
-import SectionGallery from '@/components/SectionGallery.vue';
 import SectionCredits from '@/components/SectionCredits.vue';
 
 export default {
@@ -32,7 +34,6 @@ export default {
     SectionImage,
     SectionTimeline,
     SectionMessages,
-    SectionGallery,
     SectionCredits,
   },
 };
@@ -76,6 +77,7 @@ export default {
 }
 .section {
   position:relative;
+  z-index:3;
   .section-grid {
     min-height:400px;
     &.section-box {
@@ -85,6 +87,14 @@ export default {
       border-bottom:4px solid #858ED1;
     }
   }
-  z-index:3;
+}
+</style>
+
+<style lang="scss">
+.white-glow {
+  text-shadow:
+    0px 0px 3px #fff,
+    0px 0px 3px #fff,
+    1px 1px 2px #fff;
 }
 </style>
