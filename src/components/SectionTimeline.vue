@@ -8,7 +8,7 @@
             alt="Rewind" />
         </h1>
         <h2 class="grey--text text--darken-3 text-center pa-0 ma-0 white-glow">
-          Looking back to the fun and amazing moments we had with Millie
+          Looking back to the fun and amazing moments we had with Enna
         </h2>
       </v-col>
     </v-row>
@@ -17,7 +17,7 @@
         <div class="rewind-left text-right">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -72,7 +72,7 @@
         <div class="rewind-right text-left">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -85,7 +85,7 @@
         <div class="rewind-left text-right">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -140,7 +140,7 @@
         <div class="rewind-right text-left">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -153,7 +153,7 @@
         <div class="rewind-left text-right">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -208,7 +208,7 @@
         <div class="rewind-right text-left">
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
-            src="https://www.youtube.com/embed/gx7AJmpHykc"
+            src="https://www.youtube.com/embed/PKzGGJMCEmA"
             frameborder="0"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
             allowfullscreen>
@@ -251,13 +251,13 @@ export default {
     top:0;
     bottom:0;
     margin-left:-10px;
-    border-left:4px solid #c0c0c0;
+    border-left:4px solid #131313;
     .rewind-dot {
       width:30px;
       height:30px;
-      background:#0c1a28;
+      background:#131313;
       border-radius:20px;
-      border:4px solid #c0c0c0;
+      border:4px solid #131313;
       position:absolute;
       top:50%;
       margin-left:-17px;

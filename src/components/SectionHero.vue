@@ -27,7 +27,7 @@
       <v-col cols="6" class="pr-8">
         <iframe title="feature-video"
           width="100%" height="330"
-          src="https://www.youtube.com/embed/gx7AJmpHykc"
+          src="https://www.youtube.com/embed/PKzGGJMCEmA"
           frameborder="0"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
           allowfullscreen>
