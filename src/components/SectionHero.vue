@@ -13,15 +13,15 @@
       <v-col cols="6"
         class="text-right text-h5 pt-4 pr-8 pl-8 hero-text">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
+          From her funny antics to inspiring stories,
+          from questionable comebacks to wholesome moments,
+          from scuffed streams to showcasing her amazing voice,
+          Enna is a harmony of beautiful personalities.
         </p>
         <p>
-          Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-          Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-        </p>
-        <p>
-          In nec scelerisque quam, sed ultricies ligula.
+          For 6 months we have listened to this wonderful melody thats is Enna.
+          We all only hope to experience it for as long as it is to hear,
+          a music not only to our ears, but to our hearts.
         </p>
       </v-col>
       <v-col cols="6" class="pr-8">
