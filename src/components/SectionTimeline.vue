@@ -210,7 +210,7 @@ export default {
     .rewind-dot {
       width:30px;
       height:30px;
-      background:#0c1a28;
+      background:#1d1b25;
       border-radius:20px;
       border:4px solid #c0c0c0;
       position:absolute;
@@ -243,34 +243,35 @@ export default {
 }
 
 .card {
-  background:#1a1a1a;
+  // background:#1a1a1a;
   position:relative;
-  padding:10px;
+  // padding:10px;
   min-height:100px;
   width:100%;
   background-repeat: repeat-y;
   background-size: contain;
-  &.card-style-1 { background:url('../assets/img/card-01.png'); }
-  &.card-style-2 { background:url('../assets/img/card-02.png'); }
-  &.card-style-3 { background:url('../assets/img/card-03.png'); }
-  &.card-style-4 { background:url('../assets/img/card-04.png'); }
-  &.card-style-5 { background:url('../assets/img/card-05.png'); }
-  &.card-style-6 { background:url('../assets/img/card-06.png'); }
+  // &.card-style-1 { background:url('../assets/img/card-01.png'); }
+  // &.card-style-2 { background:url('../assets/img/card-02.png'); }
+  // &.card-style-3 { background:url('../assets/img/card-03.png'); }
+  // &.card-style-4 { background:url('../assets/img/card-04.png'); }
+  // &.card-style-5 { background:url('../assets/img/card-05.png'); }
+  // &.card-style-6 { background:url('../assets/img/card-06.png'); }
   .card-name {
-    color:#343c75;
+    // color:#343c75;
+    color:#41d0c5;
     font-weight:bold;
-    text-shadow:
-      0px 0px 3px #fff,
-      0px 0px 3px #fff,
-      1px 1px 2px #fff;
+    // text-shadow:
+    //   0px 0px 3px #fff,
+    //   0px 0px 3px #fff,
+    //   1px 1px 2px #fff;
   }
   .card-text {
     white-space: pre-line;
     font-weight:bold;
-    padding:5px 10px;
-    background-color:rgba(255, 255, 255, 0.8);
-    border-radius:10px;
-    color:#000;
+    // padding:5px 10px;
+    // background-color:rgba(255, 255, 255, 0.8);
+    // border-radius:10px;
+    color:#fff;
     max-height:280px;
     overflow-y:auto;
     overflow-x:hidden;
