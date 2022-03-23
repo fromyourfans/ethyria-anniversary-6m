@@ -28,20 +28,10 @@
         </div>
         <div class="rewind-right black--text">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[0].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[0].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -50,20 +40,10 @@
       <v-col>
         <div class="rewind-left black--text text-right">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[1].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[1].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -96,20 +76,10 @@
         </div>
         <div class="rewind-right black--text">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[2].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[2].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -118,20 +88,10 @@
       <v-col>
         <div class="rewind-left black--text text-right">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[3].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[3].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -164,20 +124,10 @@
         </div>
         <div class="rewind-right black--text">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[4].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[4].message}}</div>
+            </div>
           </div>
         </div>
       </v-col>
@@ -186,20 +136,10 @@
       <v-col>
         <div class="rewind-left black--text text-right">
           <div class="rewind-texts">
-            <p class="my-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Phasellus magna nisi, varius id risus vel, vulputate tempor mauris.
-              <em>- Zer0Pendragon</em>
-            </p>
-            <p class="my-8">
-              Pellentesque at ligula elementum, rutrum ante nec, sagittis diam.
-              Quisque laoreet ligula lectus, vel malesuada est vehicula at.
-              <em>- Izendale</em>
-            </p>
-            <p class="my-8">
-              In nec scelerisque quam, sed ultricies ligula.
-              <em>- Pinkerton</em>
-            </p>
+            <div class="card">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[5].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[5].message}}</div>
+            </div>
           </div>
         </div>
         <div class="rewind-center">
@@ -223,8 +163,16 @@
 export default {
   props: [],
   data: () => ({
-    //
+    cards: null,
   }),
+  mounted() {
+    this.$root.$on('timelineCards', (cards) => {
+      this.cards = cards;
+      this.$nextTick(() => {
+        this.$forceUpdate();
+      });
+    });
+  },
 };
 </script>
 
@@ -286,4 +234,26 @@ export default {
     transform:translateY(-50%);
   }
 }
+
+.card {
+  position:relative;
+  min-height:100px;
+  width:100%;
+  background:rgba(255, 255, 255, 0.3);
+  padding:5px 20px;
+  border-radius: 10px;
+  .card-name {
+    color:#343c75;
+    font-weight:bold;
+  }
+  .card-text {
+    white-space: pre-line;
+    color:#000;
+    max-height:280px;
+    overflow-y:auto;
+    overflow-x:hidden;
+  }
+}
+
+
 </style>
