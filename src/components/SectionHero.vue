@@ -44,7 +44,7 @@ export default {
 
 <style lang="scss" scoped>
 .section-grid {
-  margin-top:300px;
+  margin-top:340px;
   max-width:1280px;
   .hero-text {
     white-space: pre-line;

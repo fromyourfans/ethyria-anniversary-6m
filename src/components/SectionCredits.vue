@@ -2,7 +2,7 @@
   <v-container>
     <v-row no-gutters class="mb-4">
       <v-col cols="12" class="text-center white--text">
-        <!-- For Millie Parfait. From MillieCord. 2022. -->
+        For Millie Parfait. From Famillie.
       </v-col>
     </v-row>
   </v-container>
