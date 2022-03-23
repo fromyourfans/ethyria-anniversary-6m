@@ -51,6 +51,14 @@
             <img src="@/assets/art/Gyu_01.png" alt="" />
             <div class="artist white--text text-center">@Kadabar_VIM</div>
           </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/mojitojoey.jpg" alt="" />
+            <div class="artist white--text text-center">NOM</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/ReignScarlet.jpg" alt="" />
+            <div class="artist white--text text-center">Reign Scarlet</div>
+          </div>
         </div>
       </v-col>
     </v-row>
