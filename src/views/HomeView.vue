@@ -47,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 #page-home {
-  background-color:#162636;
+  background-color:#1d1b25;
   background-image:url('../assets/img/background.png');
   background-repeat: repeat;
   min-height:100vh;
