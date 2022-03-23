@@ -2,7 +2,6 @@ const path = require('path');
 const { defineConfig } = require('@vue/cli-service');
 
 module.exports = defineConfig({
-  publicPath: '/ethyria-anniversary-6m',
   outputDir: path.resolve(__dirname, 'docs'),
   transpileDependencies: [
     'vuetify',
