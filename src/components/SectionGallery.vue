@@ -17,47 +17,87 @@
         <div v-masonry="'gallery'" transition-duration="0.3s" item-selector=".card" stagger="0s">
           <div v-masonry-tile class="card">
             <a href="https://twitter.com/Nashiina2001/status/1489221995380486145" target="_blank">
-              <img src="@/assets/art/Nashiina_01.jpeg" alt="@Nashiina2001" />
+              <img src="@/assets/art/6months-01-nashiina.jpeg" alt="@Nashiina2001" />
             </a>
             <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
             <a href="https://twitter.com/devildash27/status/1492514821711228931" target="_blank">
-              <img src="@/assets/art/devildash27_01.jpeg" alt="@devildash27" />
+              <img src="@/assets/art/6months-02-devilkun.png" alt="@devildash27" />
             </a>
             <div class="artist white--text text-center">Devil-kun</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/Nashiina_02.gif" alt="" />
+            <img src="@/assets/art/6months-03-nashiina.gif" alt="" />
             <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/Nashiina_03.png" alt="" />
+            <img src="@/assets/art/6months-04-nashiina.png" alt="" />
             <div class="artist white--text text-center">Nashiina</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/lostlittle_one_01.png" alt="" />
+            <img src="@/assets/art/6months-05-lostlittleone.png" alt="" />
             <div class="artist white--text text-center">lostlittle_one</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/Leef_01.png" alt="" />
+            <img src="@/assets/art/6months-06-leef.png" alt="" />
             <div class="artist white--text text-center">Leef</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/Deskun_01.png" alt="" />
+            <img src="@/assets/art/6months-07-deskun.png" alt="" />
             <div class="artist white--text text-center">Deskun</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/Gyu_01.png" alt="" />
+            <img src="@/assets/art/6months-08-kadabarvim.png" alt="" />
             <div class="artist white--text text-center">@Kadabar_VIM</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/mojitojoey.jpg" alt="" />
+            <img src="@/assets/art/6months-09-nom.jpg" alt="" />
             <div class="artist white--text text-center">NOM</div>
           </div>
           <div v-masonry-tile class="card">
-            <img src="@/assets/art/ReignScarlet.jpg" alt="" />
+            <img src="@/assets/art/6months-10-reignscarlet.jpg" alt="" />
             <div class="artist white--text text-center">Reign Scarlet</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-11-compressedrar.png" alt="" />
+            <div class="artist white--text text-center">CompressedRar</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-12-stoveface.png" alt="" />
+            <div class="artist white--text text-center">stoveface</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-13-lostlittleone.png" alt="" />
+            <div class="artist white--text text-center">lostlittle_one</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-14-rafocado.png" alt="" />
+            <div class="artist white--text text-center">rafocado</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-15-leef.png" alt="" />
+            <div class="artist white--text text-center">Leef</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-16-deskun.png" alt="" />
+            <div class="artist white--text text-center">Deskun</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-17-voldox.png" alt="" />
+            <div class="artist white--text text-center">Voldox</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-18-mbisnotmybad.jpg" alt="" />
+            <div class="artist white--text text-center">MBisnotmybad</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-19-reignscarlet.jpg" alt="" />
+            <div class="artist white--text text-center">Reign Scarlet</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-20-butteredtoast.jpg" alt="" />
+            <div class="artist white--text text-center">Buttered Toast</div>
           </div>
         </div>
       </v-col>
