@@ -10,12 +10,15 @@
         <h2 class="grey--text text-center pa-0 ma-0">
           Looking back to the fun and amazing moments we had with Millie
         </h2>
+        <h4 class="grey--text text--darken-2 text-center pa-0 ma-0">
+          Note: Messages beside each clip is randomized every refresh
+        </h4>
       </v-col>
     </v-row>
     <v-row no-gutters class="rewind-item">
       <v-col>
         <div class="rewind-left text-right">
-          <!-- OCTUBER -->
+          <!-- OCTOBER -->
           <iframe title="feature-video" class="rewind-frame"
             width="640" height="360"
             src="https://www.youtube.com/embed/-VMSX4pujvc"

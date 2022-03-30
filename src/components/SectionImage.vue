@@ -10,6 +10,10 @@
         <h2 class="grey--text text-center pa-0 ma-0">
           Famillie gathered around a mural to doodle their feelings for Millie
         </h2>
+        <h4 class="grey--text text--darken-2 text-center pa-0 ma-0">
+          jetrico, Heriz, RowJ, Leef, Devil-kun, Desk-kun, bunnioui,
+          outhale, Nashiina, rafocado, Professor Nobu, NOM
+        </h4>
       </v-col>
     </v-row>
     <v-row no-gutters class="px-16">
