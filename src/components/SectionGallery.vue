@@ -99,7 +99,6 @@
             <img src="@/assets/art/6months-20-butteredtoast.jpg" alt="" />
             <div class="artist white--text text-center">Buttered Toast</div>
           </div>
-
           <div v-masonry-tile class="card">
             <img src="@/assets/art/6months-21-mafuyu.png" alt="" />
             <div class="artist white--text text-center">Mafuyu</div>
