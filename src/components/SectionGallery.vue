@@ -99,6 +99,25 @@
             <img src="@/assets/art/6months-20-butteredtoast.jpg" alt="" />
             <div class="artist white--text text-center">Buttered Toast</div>
           </div>
+
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-21-mafuyu.png" alt="" />
+            <div class="artist white--text text-center">Mafuyu</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-22-aicia.png" alt="" />
+            <div class="artist white--text text-center">Aicia</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-23-nashiina.png" alt="" />
+            <div class="artist white--text text-center">Nashiina</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <a href="https://twitter.com/imoutoshepart/status/1511184234882363399" target="_blank">
+              <img src="@/assets/art/6months-24-imoutoshepherd.png" alt="@imoutoshepart" />
+            </a>
+            <div class="artist white--text text-center">imoutoshepherd</div>
+          </div>
         </div>
       </v-col>
     </v-row>
