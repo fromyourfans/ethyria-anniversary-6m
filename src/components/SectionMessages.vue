@@ -59,7 +59,7 @@ export default {
         .sort((a, b) => a.time - b.time);
       setTimeout(() => {
         this.shuffleCards();
-        this.$root.$emit('timelineCards', this.cards.slice(0, 6));
+        this.$root.$emit('timelineCards', this.cards.slice(0, 7));
         this.reSortCards();
         this.$nextTick(() => {
           twemoji.parse(document.body);

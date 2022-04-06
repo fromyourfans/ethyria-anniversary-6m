@@ -165,6 +165,31 @@
         </div>
       </v-col>
     </v-row>
+    <v-row no-gutters class="rewind-item">
+      <v-col>
+        <div class="rewind-left text-right">
+          <!-- APRIL -->
+          <iframe title="feature-video" class="rewind-frame"
+            width="640" height="360"
+            src="https://www.youtube.com/embed/Rmpc8pUi9KQ"
+            frameborder="0"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="rewind-center">
+          <div class="rewind-dot"></div>
+        </div>
+        <div class="rewind-right white--text">
+          <div class="rewind-texts" v-if="cards">
+            <div :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]">
+              <div class="card-name text-h6 pr-12 py-2">{{cards[6].name}}</div>
+              <div class="card-text text-body-1 pr-4 pb-2">{{cards[6].message}}</div>
+            </div>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
