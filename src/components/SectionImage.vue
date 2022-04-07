@@ -11,25 +11,31 @@
     </v-row>
     <v-row no-gutters class="px-16">
       <v-col>
-        <img src="@/assets/enna6m-quilt.png" class="quilt-img" alt="Art Quilt" />
+        <v-img
+          contain
+          max-height="94vh"
+          @click="onImgClick"
+          :src="this.image"  />
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+import image from '@/assets/enna6m-quilt.png';
+
 export default {
   props: [],
   data: () => ({
-    //
+    image,
   }),
+  methods: {
+    onImgClick() {
+      window.open(this.image);
+    },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.quilt-img {
-  max-height:94vh;
-  margin:auto;
-  display:block;
-}
 </style>
