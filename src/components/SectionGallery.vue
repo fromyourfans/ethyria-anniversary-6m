@@ -117,6 +117,18 @@
             </a>
             <div class="artist white--text text-center">imoutoshepherd</div>
           </div>
+           <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-25-shino.png" alt="" />
+            <div class="artist white--text text-center">Shino</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-26-rafocado.png" alt="" />
+            <div class="artist white--text text-center">rafocado</div>
+          </div>
+          <div v-masonry-tile class="card">
+            <img src="@/assets/art/6months-27-pretzel.png" alt="" />
+            <div class="artist white--text text-center">Pretzel</div>
+          </div>
         </div>
       </v-col>
     </v-row>
