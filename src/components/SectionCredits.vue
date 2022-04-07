@@ -10,6 +10,7 @@
           Programming: jetrico<br />
           Header &amp; Background: Hel<br />
           Aloupeeps on Cards: Frank<br />
+          Timeline committee: koshka-sova, Professor Nobu<br />
         </p>
         <p>
           <strong>Country Roads Acapella</strong><br />
