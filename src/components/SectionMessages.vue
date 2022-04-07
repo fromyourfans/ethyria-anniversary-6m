@@ -17,10 +17,11 @@
         <div v-masonry="'bdaycards'" transition-duration="0.3s" item-selector=".card" stagger="0s">
           <div
             v-masonry-tile
-            :class="[ 'card', `card-style-${Math.ceil(Math.random() * 6)}`]"
+            :class="[ 'card', `card-style-${item.aloupeep}`]"
             v-for="(item, ix) in cards" :key="`card-${ix}`">
             <div class="card-name text-h6 pr-12 py-2">{{item.name}}</div>
             <div class="card-text text-body-1 pr-4 pb-2">{{item.message}}</div>
+            <div class="card-aloupeep"></div>
           </div>
         </div>
       </v-col>
@@ -59,6 +60,11 @@ export default {
       const fetchSource = await axios.get(this.source).catch(() => null);
       const data = fetchSource && fetchSource.data ? fetchSource.data : {};
       this.cards = Object.values(data.messages)
+        .map((card) => ({
+          ...card,
+          // aloupeep: 11,
+          aloupeep: Math.ceil(Math.random() * 12),
+        }))
         .sort((a, b) => a.time - b.time);
       this.$nextTick(() => {
         twemoji.parse(document.body);
@@ -84,12 +90,83 @@ export default {
   // border:2px solid #0f0f0f;
   background-repeat: repeat-y;
   background-size: contain;
-  // &.card-style-1 { background:url('../assets/img/card-01.png'); }
-  // &.card-style-2 { background:url('../assets/img/card-02.png'); }
-  // &.card-style-3 { background:url('../assets/img/card-03.png'); }
-  // &.card-style-4 { background:url('../assets/img/card-04.png'); }
-  // &.card-style-5 { background:url('../assets/img/card-05.png'); }
-  // &.card-style-6 { background:url('../assets/img/card-06.png'); }
+  .card-aloupeep {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-30px;
+    right:-10px;
+    // background-color:#f00;
+    z-index:1;
+    background-size:contain;
+  }
+  // fh, rich, wave
+  &.card-style-1 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-01.png');
+    }
+  }
+  &.card-style-2 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-02.png');
+    }
+  }
+  &.card-style-3 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-art.png');
+    }
+  }
+  &.card-style-4 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-cb.png');
+    }
+  }
+  &.card-style-5 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-fh.png');
+      top:-13px;
+      z-index:3;
+    }
+  }
+  &.card-style-6 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-ld.png');
+    }
+  }
+  &.card-style-7 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-ms.png');
+    }
+  }
+  &.card-style-8 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-rich.png');
+      top:-9px;
+      z-index:3;
+    }
+  }
+  &.card-style-9 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-slp.png');
+    }
+  }
+  &.card-style-10 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-td.png');
+    }
+  }
+  &.card-style-11 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-wave.png');
+      top:-17px;
+      z-index:3;
+    }
+  }
+  &.card-style-12 {
+    .card-aloupeep {
+      background-image:url('@/assets/img/aloupeeps/aloupeep-wiz.png');
+    }
+  }
   .card-name {
     color:#343c75;
     font-weight:bold;
@@ -104,6 +181,8 @@ export default {
     padding:5px 10px;
     background-color:rgba(255, 255, 255, 0.7);
     border-radius:10px;
+    position:relative;
+    z-index:2;
     color:#000;
     text-shadow:
       0px 0px 3px #fff,
