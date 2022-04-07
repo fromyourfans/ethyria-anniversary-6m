@@ -19,7 +19,7 @@
             <Tweet id="1511150040886173699"></Tweet>
           </div>
           <div
-            v-masonry-tile
+            v-masonry-tile @click="redraw()"
             :class="[ 'card', `card-style-${item.aloupeep}`]"
             v-for="(item, ix) in cards" :key="`card-${ix}`">
             <div class="card-name text-h6 pr-12 py-2">{{item.name}}</div>
@@ -61,6 +61,9 @@ export default {
         if (a.time < b.time) return -1;
         return 0;
       });
+    },
+    redraw() {
+      this.$redrawVueMasonry('bdaycards');
     },
   },
   mounted() {
