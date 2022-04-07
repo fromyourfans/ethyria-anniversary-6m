@@ -15,6 +15,9 @@
     <v-row no-gutters>
       <v-col class="pt-4">
         <div v-masonry="'bdaycards'" transition-duration="0.3s" item-selector=".card" stagger="0s">
+          <div v-masonry-tile class="card card-style-3 card-tweet">
+            <Tweet id="1511150040886173699"></Tweet>
+          </div>
           <div
             v-masonry-tile
             :class="[ 'card', `card-style-${item.aloupeep}`]"
@@ -32,6 +35,7 @@
 <script>
 import axios from 'axios';
 import twemoji from 'twemoji';
+import { Tweet } from 'vue-tweet-embed';
 
 export default {
   data: () => ({
@@ -69,11 +73,14 @@ export default {
       this.$nextTick(() => {
         twemoji.parse(document.body);
         this.$redrawVueMasonry('bdaycards');
-        setTimeout(() => {
-          this.$redrawVueMasonry('bdaycards');
-        }, 1200);
+        setTimeout(() => { this.$redrawVueMasonry('bdaycards'); }, 1200);
+        setTimeout(() => { this.$redrawVueMasonry('bdaycards'); }, 3000);
+        setTimeout(() => { this.$redrawVueMasonry('bdaycards'); }, 9000);
       });
     })();
+  },
+  components: {
+    Tweet,
   },
 };
 </script>
@@ -90,6 +97,10 @@ export default {
   // border:2px solid #0f0f0f;
   background-repeat: repeat-y;
   background-size: contain;
+  &.card-tweet {
+    background:none;
+    padding:0px;
+  }
   .card-aloupeep {
     width:100px;
     height:100px;
