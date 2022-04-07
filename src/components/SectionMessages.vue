@@ -37,6 +37,11 @@ import axios from 'axios';
 import twemoji from 'twemoji';
 import { Tweet } from 'vue-tweet-embed';
 
+const FixedAloupeeps = {
+  jetrico: 12,
+  Zer0Pendragon6: 5,
+};
+
 export default {
   data: () => ({
     source: 'https://vtubertools.sfo3.digitaloceanspaces.com/tribute/enna6m.json',
@@ -67,7 +72,7 @@ export default {
         .map((card) => ({
           ...card,
           // aloupeep: 11,
-          aloupeep: Math.ceil(Math.random() * 12),
+          aloupeep: FixedAloupeeps[card.name] || Math.ceil(Math.random() * 12),
         }))
         .sort((a, b) => a.time - b.time);
       this.$nextTick(() => {
@@ -94,6 +99,7 @@ export default {
   min-height:100px;
   width:24%;
   margin:10px 0.5%;
+  border-radius:8px;
   // border:2px solid #0f0f0f;
   background-repeat: repeat-y;
   background-size: contain;
