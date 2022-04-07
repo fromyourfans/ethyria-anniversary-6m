@@ -60,19 +60,13 @@ export default {
       const data = fetchSource && fetchSource.data ? fetchSource.data : {};
       this.cards = Object.values(data.messages)
         .sort((a, b) => a.time - b.time);
-      setTimeout(() => {
-        this.shuffleCards();
-        this.$root.$emit('timelineCards', this.cards.slice(0, 6));
-        this.cards = this.cards.slice(6);
-        this.reSortCards();
-        this.$nextTick(() => {
-          twemoji.parse(document.body);
+      this.$nextTick(() => {
+        twemoji.parse(document.body);
+        this.$redrawVueMasonry('bdaycards');
+        setTimeout(() => {
           this.$redrawVueMasonry('bdaycards');
-          setTimeout(() => {
-            this.$redrawVueMasonry('bdaycards');
-          }, 1200);
-        });
-      }, 1000);
+        }, 1200);
+      });
     })();
   },
 };

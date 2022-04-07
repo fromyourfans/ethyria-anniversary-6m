@@ -252,18 +252,9 @@
 
 <script>
 export default {
-  props: [],
   data: () => ({
-    cards: null,
+    //
   }),
-  mounted() {
-    this.$root.$on('timelineCards', (cards) => {
-      this.cards = cards;
-      this.$nextTick(() => {
-        this.$forceUpdate();
-      });
-    });
-  },
 };
 </script>
 
