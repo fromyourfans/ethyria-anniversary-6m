@@ -18,11 +18,11 @@ module.exports = defineConfig({
         'og:title': 'Millie 6-Months and 200K',
         'og:type': 'website',
         'og:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
-        // 'og:image': 'https://birthday.ennaalouette.com/ogimage.png',
+        'og:image': 'https://6months.millieparfait.com/ogimage.png',
         'twitter:card': 'summary_large_image',
         'twitter:title': 'Millie 6-Months and 200K',
         'twitter:description': 'Happy 6-Months Anniversary and Congratulations on 200K Millie!',
-        // 'twitter:image': 'https://birthday.ennaalouette.com/ogimage.png',
+        'twitter:image': 'https://6months.millieparfait.com/ogimage.png',
       };
       return args;
     });
