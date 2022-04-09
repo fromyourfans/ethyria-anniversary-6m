@@ -11,14 +11,18 @@
           our days and we hope you enjoy everything!
         </p>
       </v-col>
-      <v-col cols="6" class="pr-8">
+      <v-col cols="6" class="pr-8 text-center grey--text text--lighten-1">
         <iframe title="feature-video"
           width="100%" height="330"
-          src="https://www.youtube.com/embed/ygS22EC6u2c"
+          src="https://www.youtube.com/embed/ygS22EC6u2c?mute=1"
           frameborder="0"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
           allowfullscreen>
         </iframe>
+        <h5>
+          Stream Caution: Part of video contains Titanic flute music.<br />
+          Video will start muted. Unmute at will.
+        </h5>
       </v-col>
     </v-row>
   </v-container>
